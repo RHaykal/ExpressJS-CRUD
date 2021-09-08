@@ -1,0 +1,48 @@
+.crud-navbar {
+    background-color: teal;
+}
+
+.crud-body {
+    margin-top: 50%;
+}
+
+.btn-adduser {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: white;
+    background-color: teal;
+    border: 2px solid teal;
+    box-shadow: 1px 5px 5px grey;
+}
+
+.btn-adduser:hover {
+    color: teal;
+    background-color: white;
+    border: 2px solid teal;
+}
+
+.btn-editdelete {
+    color: teal;
+    background-color: white;
+    border: 1px solid teal;
+}
+
+.btn-editdelete:hover {
+    color: white;
+    background-color: teal;
+    border: 1px solid teal;
+}
+
+.center {
+    padding: 70px 0;
+    margin: auto;
+    /* width: 60%; */
+    border: 3px;
+    padding: 10px;
+}
+
+.text-center {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
