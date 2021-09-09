@@ -38,7 +38,7 @@ app.get('/', async (req, res) => {
 
 app.get('/addUser', async (req, res) => {
     try {
-        res.sendFile(__dirname + '/views/user.html')
+        res.render('user')
         // const users = await User.find();
         // console.log(users)
     } catch (error) {
